@@ -1,0 +1,208 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+*{transition: all .1s ease-in;}
+
+body {
+    background-color: #2793CB;
+    border: 20px solid #227CAC;
+    box-sizing: border-box;
+}
+
+.mainer {
+    max-width: 60%;
+    margin: 100px auto;
+    
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    font-size: 24px;
+    color: #ffffff;
+    padding-right: 5px;
+    padding-bottom: 50px;
+}  
+
+.logo {
+    display: inline-block;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.cities {
+    border: 2px solid #ffffff;
+    font-size: 0;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0;
+    display: block;
+}
+
+.cities li {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.cities .city {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px 0 0 0;
+}
+
+.cities .icon {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 0 15px 0;
+    opacity: 0.7;
+}
+
+.cities span {
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.7;
+    padding-right: 7px;
+}
+
+
+#city_lisbon {
+    width: 50%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #2793CB;
+}
+
+#city_paris {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #24BDC8;
+}
+
+#city_belgrade {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #986F95;
+}
+
+#city_moscow {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #C75440;
+}
+
+#city_telaviv {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #E97145;
+}
+
+#city_cair {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #FFCB5F;
+}
+
+#city_newyork {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #93C397;
+}
+
+#city_newdelhi {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #5E9494;
+}
+
+#city_sanfrancisco {
+    width: 50%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #CF7294;
+}
+
+#city_tokyo {
+    width: 25%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #2A8C63;
+}
+
+#city_sydney {
+    width: 100%;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #626996;
+}
+
+.cities:hover li:not(:hover) {
+    opacity: 0.4;
+}
+/* .cities:hover li {
+    opacity: 0.4;
+}
+ .cities li:hover {
+    opacity: 1;
+} */
+
